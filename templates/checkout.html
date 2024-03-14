@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Order Confirmation</h1>
+    </header>
+    <div class="container">
+        <p>Thank you for shopping with SecureFortress Ops!</p>
+        <p>Your order has been confirmed. An email with order details has been sent to your registered email address.</p>
+        <a href="{{ url_for('home') }}">Back to Home</a>
+    </div>
+    <footer class="footer">
+        <p>SecureFortress Ops © 2024</p>
+    </footer>
+</body>
+</html>
+
+
